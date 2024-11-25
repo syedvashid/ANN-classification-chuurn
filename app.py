@@ -1,7 +1,6 @@
 import streamlit as st
 import numpy as np
-import os 
-os.system("pip install tensorflow==2.15.0")
+
 
 import tensorflow as tf
 from sklearn.preprocessing import StandardScaler, LabelEncoder, OneHotEncoder
